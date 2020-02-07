@@ -1,0 +1,11 @@
+package animals;
+
+/**
+ *
+ * @author Ruhma Khawaja
+ */
+public interface Animal {
+    public void eatFood() ;
+  public void breathe() ;
+ 
+}
