@@ -1,0 +1,12 @@
+package animals;
+
+/**
+ *
+ * @author Ruhma Khawaja
+ */
+public class BirdTricks extends birds{
+     public void singsongs() 
+    {
+        System.out.println("Birds can sing songs");
+    }
+}
