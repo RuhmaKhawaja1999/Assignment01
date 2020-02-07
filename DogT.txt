@@ -1,0 +1,12 @@
+package animals;
+
+/**
+ *
+ * @author Ruhma Khawaja
+ */
+public class DogTricks extends Dog {
+     public void playdead() 
+    {
+        System.out.println("Dogs can play dead as a game");
+    }
+}
