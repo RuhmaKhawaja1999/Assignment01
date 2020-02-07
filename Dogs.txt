@@ -1,0 +1,22 @@
+package animals;
+
+/**
+ *
+ * @author Ruhma Khawaja
+ */
+public class Dog implements Animal ,commonn{
+    public void eatFood()
+    {
+        System.out.println("Dog can eat food");
+    }
+    public void breathe() 
+    {
+        System.out.println("Dog can breathe");
+    }
+  
+    public void walk() 
+    {
+        System.out.println("Dogs can walk");
+    }
+    
+}
