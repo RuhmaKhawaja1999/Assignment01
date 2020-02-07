@@ -1,0 +1,29 @@
+package animals;
+
+/**
+ *
+ * @author Ruhma Khawaja
+ */
+public class birds implements Animal,commonn
+{
+    public void eatFood()
+    {
+        System.out.println("Birds can eat food");
+    }
+    public void breathe() 
+    {
+        System.out.println("Birds can breathe");
+    }
+    public void fly() 
+    {
+        System.out.println("Birds can fly");
+    }
+    public void walk() 
+    {
+        System.out.println("Birds can walk");
+    }
+    public void makeNest() 
+    {
+        System.out.println("Birds can make nest");
+    }
+}
