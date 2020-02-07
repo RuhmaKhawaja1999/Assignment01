@@ -1,0 +1,9 @@
+package animals;
+
+/**
+ *
+ * @author Ruhma Khawaja
+ */
+public interface commonn {
+  public void walk();
+}
