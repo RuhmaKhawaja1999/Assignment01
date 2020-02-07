@@ -1,0 +1,78 @@
+package animals;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Ruhma Khawaja
+ */
+public class Animals {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    Scanner s = new Scanner(System.in);
+    System.out.println("ANIMALS AND THEIR PROPERTIES");
+    for(int i =0;i<3;i++)
+    {
+        System.out.println("input 1 for birds");
+                    System.out.println("input 2 for dogs"); 
+                    System.out.println("input 3 for rabbits"); 
+                    System.out.println("input 4 to exit the program");
+int a;
+a=s.nextInt();
+if (a==1)
+{    System.out.println("Displaying bird properties");
+birds b = new birds();
+b.eatFood();
+b.breathe();
+b.fly();
+b.walk();
+b.makeNest();
+    System.out.println("Do you wish to check the bird tricks "
+            + "   press 1 for yes "
+            + "   press 2 for exit");
+int x;
+x=s.nextInt();
+if (x==1)
+{
+    BirdTricks bt= new BirdTricks();
+    bt.singsongs();
+} 
+else 
+  System.out.println("Displed bird properties");
+}
+if(a==2)
+{
+ System.out.println("Displaying Dog properties");
+Dog d = new Dog();
+d.eatFood();
+d.breathe();
+d.walk();
+    System.out.println("Do you wish to check the dog tricks "
+            + "press 1 for yes "
+            + "press 2 for exit");
+int x;
+x=s.nextInt();
+if (x==1)
+{
+    DogTricks dt= new DogTricks();
+    dt.playdead();
+} 
+else 
+  System.out.println("Displed dog properties");
+}
+if(a==3)
+{
+ System.out.println("Displaying Rabbit properties");
+rabbits r= new rabbits();
+r.eatFood();
+r.breathe();
+r.hop();
+   
+  System.out.println("Displed rabbit properties");
+}
+    }
+    }
+    
+}
